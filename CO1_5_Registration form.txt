@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>registation form</title>
+<body>
+<h2 align="center">Registration Form</h2>
+<table cellpadding="10" align="center"
+border="2">
+<tr>
+   <td>First Name</td>
+   <td><input type="text" names="txtfname"
+id="txtfname" autofocus="autofocus" required="required"/></td>
+</tr>
+<tr>
+<td>Last Name</td>
+<td><input type="text" name="txtlname"
+id="txtlname" required="required"/></td>
+</tr>
+<tr>
+<td>Mail id</td>
+<td><input type="text" name="txtemail"
+id="txtemail" required="required"/></td>
+</tr>
+<tr>
+<td>Mobile NO</td>
+<td><input type="text" name="txtnum"
+id="txtnum" required="required"/></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="rdbgender"
+id="rdbgender" required="required" value="Male"/>Male
+    <input type="radio" name="rdbgender"
+id="rdbgender" required="required" value="Female"/>Female</td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea name="txtaddress" 
+id="txtaddress" required="required" cols="45" rows="5"></textarea></td>
+</tr>
+<tr>
+<td>Highest Qualification</td>
+<td><input type="text" name="txtqualification"
+id="txtqualification" required="required"/></td>
+</tr>
+<tr>
+<td>Username</td>
+<td><input type="text" name="txtusername"
+id="txtusername" required="required"/></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="Password" name="txtpassword"
+id="txtpasword" required="required"/></td>
+</tr>
+<tr>
+<td>Confirm Password</td>
+<td><input type="Password" name="txtRepassword"
+id="txtRepasword" required="required"/></td>
+</tr>
+<tr>
+<td colspan="2" align="right">
+<input type="submit" name="btnsave"
+id="btnsave" required="required" value="save"/>
+<input type="reset" name="btncancel"
+id="btncancel" value="cancel"/>
+</td>
+</tr>
+</table>
+</body>
+</head>
+</html>
+
+
+
+
+
+
